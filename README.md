@@ -1,3 +1,33 @@
+# Minimalist Portfolio / CV Template
+
+Basado en el diseño de Bartosz Jarocki  
+Creado por [Mactuber](https://github.com/Mactuber)  
+
+Un portafolio y CV minimalista diseñado para la web y PDF. Personaliza tu contenido usando un archivo JSON compatible con [jsonresume.org](https://jsonresume.org/) y genera una experiencia de alta calidad tanto para impresión como para visualización en navegador.  
+
+### 🛠️ Stack  
+- **Astro**: El framework web de la nueva generación.  
+- **TypeScript**: JavaScript con tipado estático.  
+- **Ninja Keys**: Menú desplegable con atajos de teclado hecho en JavaScript puro.  
+
+---
+
+### 🚀 Empezar  
+
+1. **Usa este repo como plantilla:**  
+   Clona este proyecto como base para crear tu propio portafolio/CV.  
+
+   ```bash
+   # Activa pnpm en MacOS, WSL & Linux
+   corepack enable
+   corepack prepare pnpm@latest --activate
+
+# Inicializa el proyecto
+pnpm create astro@latest -- --template Mactuber/minimalist-portfolio-json
+
+Personaliza el contenido:
+Edita el archivo cv.json para añadir tu información personal y profesional.
+
 # Astro Starter Kit: Basics
 
 ```sh
