@@ -28,6 +28,9 @@ pnpm create astro@latest -- --template Mactuber/minimalist-portfolio-json
 Personaliza el contenido:
 Edita el archivo cv.json para añadir tu información personal y profesional.
 
+## Ejemplo Práctico:
+![Imagen 1](images/img1.png)
+
 # Astro Starter Kit: Basics
 
 ```sh
