@@ -1,3 +1,16 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@cv": [
+        "./cv.json"
+      ],
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": ["astro/client"] // Asegura que los tipos de Astro estén incluidos
+  },
+  "include": ["src", "env.d.ts"] // Incluye env.d.ts y el código fuente
 }
